@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    background-color: rgb(242, 235, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    display: flex;
+    width: 700px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+.box1 {
+    display: flex;
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#im1 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box2 {
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.product {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+    color: dimgray;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-size: 22px;
+}
+
+.product_title {
+    font-family: "Montserrat", sans-serif;
+    line-height: 28px;
+    font-size: xx-large;
+    font-weight: 900;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+
+.discripition {
+    font-family: "Montserrat", sans-serif;
+    color: dimgray;
+    position: relative;
+    left: 30px;
+    top: 70px;
+}
+
+.p1 {
+    position: relative;
+    left: 30px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  hsl(158, 36%, 37%);
+    font-weight: 800;
+    line-height: 1;
+}
+
+.p2 {
+    position: relative;
+    left: 40px;
+    font-size: large;
+    color: dimgray;
+}
+
+.btn {
+
+    display: block;
+    margin: 30px;
+    background-color: hsl(158, 36%, 37%);
+    width: 76%;
+
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    height: 45px;
+    position: relative;
+    bottom: 35px;
+}
+.bt1{
+    margin-right: 1em;
+    max-width: 100%;
+}
+.bt2{ 
+    margin-bottom: 1.5em;
+    font-weight: 500;
+    font-size: large;
+
+}
+.btn:hover{
+    background-color: rgb(4, 43, 4);
+}
